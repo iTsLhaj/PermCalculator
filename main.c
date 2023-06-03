@@ -51,7 +51,7 @@ void help(char *exe_)
 
 }
 
-int s2i(int *permission, char *text)
+void s2i(int *permission, char *text)
 {
 	
 	// char *text = "-rwxrwxr-x"; /* 775 */ 
