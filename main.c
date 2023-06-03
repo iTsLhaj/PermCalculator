@@ -51,7 +51,7 @@ void help(char *exe_)
 
 }
 
-int *s2i(int *permission, char *text)
+int s2i(int *permission, char *text)
 {
 	
 	// char *text = "-rwxrwxr-x"; /* 775 */ 
@@ -84,8 +84,7 @@ int *s2i(int *permission, char *text)
 		permission[counter] = s;
 		counter++;
 	}
-	
-	return permission;
+
 }
 
 int main(int argc, char **argv)
